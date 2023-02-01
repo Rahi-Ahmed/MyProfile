@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyProfile</string>
+    <string name="launch_id">launch</string>
+    <string name="set_season">Confirm</string>
+    <string name="confirm">Confirm</string>
+    <string-array name="seasons_array">
+    <item>Winter</item>
+    <item>Spring</item>
+    <item>Summer</item>
+    <item>Fall</item>
+    </string-array>
+
+
+</resources>

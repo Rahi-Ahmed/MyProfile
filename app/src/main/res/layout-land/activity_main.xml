@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/land_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+     <ImageButton
+        android:id="@+id/launch_id"
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="600dp"
+        app:srcCompat="@drawable/icon"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:text="About Me"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/profile_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chris Hill completed a Master of Arts degree in
+ Economics, with a specialization in public finance and
+ econometrics.  He has worked as an economist in many capacities for
+ several organizations, including Bombardier Aerospace,
+ International Air Transport Association (IATA), Ontario Hydro, Ontario
+ Ministry of Economic Development and Trade, University of Saskatchewan
+ (Economics Department) and Consumers’ Association of Canada."
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
